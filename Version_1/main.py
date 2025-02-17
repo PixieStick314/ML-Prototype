@@ -11,7 +11,7 @@ FORMAT = pyaudio.paInt16  # 16-bit audio format
 CHANNELS = 1  # Mono audio
 RATE = 16000  # 16kHz sample rate
 CHUNK = 1024  # Buffer size
-OUTPUT_FILENAME = "blive_audio.wav"
+OUTPUT_FILENAME = "live_audio.wav"
 
 # Load Wav2Vec2 Pretrained Model
 bundle = torchaudio.pipelines.WAV2VEC2_ASR_BASE_960H  # Base model for English ASR
